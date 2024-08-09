@@ -106,5 +106,17 @@
             "vosaltres": "canteu",
             "ells/elles": "canten"
         }
+    },
+    {
+        "català": "voler",
+        "anglès": "to want",
+        "conjugacions": {
+            "jo": "vull",
+            "tu": "vols",
+            "ell/ella": "vol",
+            "nosaltres": "volem",
+            "vosaltres": "voleu",
+            "ells/elles": "volen"
+        }
     }
 ]
