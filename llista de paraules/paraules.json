@@ -1,0 +1,110 @@
+[
+    {
+        "català": "anar",
+        "anglès": "to go",
+        "conjugacions": {
+            "jo": "vaig",
+            "tu": "vas",
+            "ell/ella": "va",
+            "nosaltres": "anem",
+            "vosaltres": "aneu",
+            "ells/elles": "van"
+        }
+    },
+    {
+        "català": "estar",
+        "anglès": "to be (temporary state, location)",
+        "conjugacions": {
+            "jo": "estic",
+            "tu": "estàs",
+            "ell/ella": "està",
+            "nosaltres": "estem",
+            "vosaltres": "esteu",
+            "ells/elles": "estan"
+        }
+    },
+    {
+        "català": "dar",
+        "anglès": "to give",
+        "conjugacions": {
+            "jo": "dono",
+            "tu": "dones",
+            "ell/ella": "dona",
+            "nosaltres": "donem",
+            "vosaltres": "doneu",
+            "ells/elles": "donen"
+        }
+    },
+    {
+        "català": "ballar",
+        "anglès": "to dance",
+        "conjugacions": {
+            "jo": "ballo",
+            "tu": "balles",
+            "ell/ella": "balla",
+            "nosaltres": "ballem",
+            "vosaltres": "balleu",
+            "ells/elles": "ballen"
+        }
+    },
+    {
+        "català": "escoltar",
+        "anglès": "to listen",
+        "conjugacions": {
+            "jo": "escolto",
+            "tu": "escoltes",
+            "ell/ella": "escolta",
+            "nosaltres": "escoltem",
+            "vosaltres": "escolteu",
+            "ells/elles": "escolten"
+        }
+    },
+    {
+        "català": "parlar",
+        "anglès": "to speak",
+        "conjugacions": {
+            "jo": "parlo",
+            "tu": "parles",
+            "ell/ella": "parla",
+            "nosaltres": "parlem",
+            "vosaltres": "parleu",
+            "ells/elles": "parlen"
+        }
+    },
+    {
+        "català": "estudiar",
+        "anglès": "to study",
+        "conjugacions": {
+            "jo": "estudio",
+            "tu": "estudies",
+            "ell/ella": "estudia",
+            "nosaltres": "estudiem",
+            "vosaltres": "estudieu",
+            "ells/elles": "estudien"
+        }
+    },
+    {
+        "català": "treballar",
+        "anglès": "to work",
+        "conjugacions": {
+            "jo": "treballo",
+            "tu": "treballes",
+            "ell/ella": "treballa",
+            "nosaltres": "treballem",
+            "vosaltres": "treballeu",
+            "ells/elles": "treballen"
+        }
+    },
+    {
+        "català": "cantar",
+        "anglès": "to sing",
+        "conjugacions": {
+            "jo": "canto",
+            "tu": "cantes",
+            "ell/ella": "canta",
+            "nosaltres": "cantem",
+            "vosaltres": "canteu",
+            "ells/elles": "canten"
+        }
+    }
+]
