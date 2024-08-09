@@ -2,6 +2,11 @@ import json
 import os
 import random
 import unicodedata
+import requests
+import pygame
+from playsound import playsound
+from io import BytesIO
+from bs4 import BeautifulSoup
 
 # Path to the JSON file
 json_file_path = os.path.join('llista de paraules', 'paraules.json')
@@ -40,7 +45,8 @@ def practice_conjugations(verbs, repetitions):
             clear_console()
             anglès = f" ({verb['anglès']})"
             print(f"Conjuga '{verb['català']}'{anglès} per '{subject}':")
-            answer = input("Your answer: ")
+            playsound(f'audio/{verb['català']}.mp3', False)
+            answer = input("La teva resposta: ")
 
             # Remove accents from both the answer and the correct conjugation
             if remove_accents(answer.lower()) == remove_accents(conjugation):
