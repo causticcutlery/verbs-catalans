@@ -37,8 +37,12 @@ def remove_accents(text):
 def practice_conjugations(verbs, repetitions):
     score = 0
 
-    for _ in range(repetitions):
-        verb = random.choice(verbs)
+    for i in range(repetitions):
+        # verb = random.choice(verbs)
+        # subject, conjugation = random.choice(list(verb['conjugacions'].items()))
+
+        verb = verbs[i % len(verbs)]  # This will cycle through the shuffled verbs
+
         subject, conjugation = random.choice(list(verb['conjugacions'].items()))
 
         while True:
