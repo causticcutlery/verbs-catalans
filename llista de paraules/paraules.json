@@ -118,5 +118,17 @@
             "vosaltres": "voleu",
             "ells/elles": "volen"
         }
+    },
+    {
+        "català": "tenir",
+        "anglès": "to have",
+        "conjugacions": {
+            "jo": "tinc",
+            "tu": "tens",
+            "ell/ella": "té",
+            "nosaltres": "tenim",
+            "vosaltres": "teniu",
+            "ells/elles": "tenen"
+        }
     }
 ]
