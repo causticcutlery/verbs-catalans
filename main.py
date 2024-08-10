@@ -5,6 +5,7 @@ import unicodedata
 import requests
 import pygame
 from playsound import playsound
+from playsound import PlaysoundException
 from io import BytesIO
 from bs4 import BeautifulSoup
 
@@ -38,9 +39,6 @@ def practice_conjugations(verbs, repetitions):
     score = 0
 
     for i in range(repetitions):
-        # verb = random.choice(verbs)
-        # subject, conjugation = random.choice(list(verb['conjugacions'].items()))
-
         verb = verbs[i % len(verbs)]  # This will cycle through the shuffled verbs
 
         subject, conjugation = random.choice(list(verb['conjugacions'].items()))
@@ -49,7 +47,8 @@ def practice_conjugations(verbs, repetitions):
             clear_console()
             anglès = f" ({verb['anglès']})"
             print(f"Conjuga '{verb['català']}'{anglès} per '{subject}':")
-            playsound(f'audio/{verb['català']}.mp3', False)
+            # playsound(f'audio/{verb['català']}.mp3', False)
+            play_audio(verb['català'])
             answer = input("La teva resposta: ")
 
             # Remove accents from both the answer and the correct conjugation
@@ -64,6 +63,12 @@ def practice_conjugations(verbs, repetitions):
                 input("Premeu Intro per tornar-ho a provar...")
 
     return score
+
+def play_audio(verb):
+    try:
+        playsound(f'audio/{verb}.mp3', False)
+    except PlaysoundException:
+        pass
 
 # Main function to run the CLI menu
 def main():
