@@ -11,15 +11,15 @@ from bs4 import BeautifulSoup
 
 requests.packages.urllib3.disable_warnings() 
 
-# Path to the JSON file
+#Path to the JSON file
 json_file_path = os.path.join('llista de paraules', 'paraules.json')
 
-# Read API key from file
+#Read API key from file
 with open("api.key", 'r') as file:
     API_KEY = file.read().strip()
 
 
-# Function to load JSON data from the file
+#Function to load JSON data from the file
 def load_verbs(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -32,33 +32,33 @@ def load_verbs(file_path):
         print("Error: Failed to decode JSON.")
         exit()
 
-# Function to clear the console
+#Function to clear the console
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-# Function to remove accents from a string
+#Function to remove accents from a string
 def remove_accents(text):
     normalized_text = unicodedata.normalize('NFD', text)
     return ''.join([char for char in normalized_text if not unicodedata.combining(char)])
 
 # def make_word_list(verbs):
-#     llista_de_paraules = []
+#    llista_de_paraules = []
 
-#     for verb in verbs:
-#         català = verb['català']
-#         anglès = verb['anglès']
+#    for verb in verbs:
+#        català = verb['català']
+#        anglès = verb['anglès']
         
-#         for persona, conjugacion in verb['conjugacions'].items():
-#             llista_de_paraules.append({
-#                 'catala': català,
-#                 'angles': anglès,
-#                 'conjugacion': conjugacion,
-#                 'persona': persona
-#             })
+#        for persona, conjugacion in verb['conjugacions'].items():
+#            llista_de_paraules.append({
+#                'catala': català,
+#                'angles': anglès,
+#                'conjugacion': conjugacion,
+#                'persona': persona
+#            })
 
-#     return llista_de_paraules
+#    return llista_de_paraules
 
-# Function to practice conjugations
+#Function to practice conjugations
 def practice_conjugations(verbs, repetitions):
     score = 0
 
@@ -79,7 +79,7 @@ def practice_conjugations(verbs, repetitions):
                 answer = input("La teva resposta ('rr' per repetir): ")
             
 
-            # Remove accents from both the answer and the correct conjugation
+            #Remove accents from both the answer and the correct conjugation
             if remove_accents(answer.lower()) == remove_accents(conjugation):
                 print(f"Correcte! La resposta correcta és '{conjugation}'.\n")
                 
@@ -103,11 +103,11 @@ def download_audio(verb):
     if response.status_code == 200:
         data = response.json()
         
-        # Assuming you want the first pronunciation in the list
+        #Assuming you want the first pronunciation in the list
         if 'items' in data and len(data['items']) > 0:
             mp3_url = data['items'][0]['pathmp3']
             
-            # Download the mp3 file
+            #Download the mp3 file
             audio_response = requests.get(mp3_url, verify=False)
             if audio_response.status_code == 200:
                 file_path = f'audio/{verb}.mp3'
@@ -120,12 +120,6 @@ def download_audio(verb):
                     file.write()
     return None
 
-# def play_audio(verb):
-#     try:
-#         playsound(f'audio/{verb}.mp3', False)
-#     except PlaysoundException:
-#         pass
-
 def play_audio(verb):
     verb = remove_accents(verb)
     file_path = f'audio/{verb}.mp3'
@@ -135,17 +129,17 @@ def play_audio(verb):
         file_path = download_audio(verb)
         if not file_path:
             print(f"Failed to download {verb}.mp3")
-            # open(file_path, 'a').close()
-            # return
+            #open(file_path, 'a').close()
+            #return
             pass
     
     try:
         playsound(file_path, False)
     except Exception as e:
-        # print(f"Error playing sound: {e}")
+        #print(f"Error playing sound: {e}")
         pass
 
-# Main function to run the CLI menu
+#Main function to run the CLI menu
 def main():
     clear_console()
     print("Benvinguts a la pràctica de conjugació de verbs en català!")
