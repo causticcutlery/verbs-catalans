@@ -126,10 +126,11 @@ def play_audio(verb):
     
     if not os.path.exists(file_path):
         print(f"File not found locally. Downloading {verb}.mp3...")
-        file_path = download_audio(verb)
-        if not file_path:
+        response = download_audio(verb)
+        if not response:
             print(f"Failed to download {verb}.mp3")
-            #open(file_path, 'a').close()
+            with open(file_path, 'w') as file:
+                pass
             #return
             pass
     
