@@ -130,5 +130,245 @@
             "vosaltres": "teniu",
             "ells/elles": "tenen"
         }
+    },
+    {
+        "català": "llegir",
+        "anglès": "to read",
+        "conjugacions": {
+            "jo": "llegeixo",
+            "tu": "llegeixes",
+            "ell/ella": "llegeix",
+            "nosaltres": "llegim",
+            "vosaltres": "llegiu",
+            "ells/elles": "llegeixen"
+        }
+    },
+    {
+        "català": "decidir",
+        "anglès": "to decide",
+        "conjugacions": {
+            "jo": "decideixo",
+            "tu": "decideixes",
+            "ell/ella": "decideix",
+            "nosaltres": "decidim",
+            "vosaltres": "decidiu",
+            "ells/elles": "decideixen"
+        }
+    },
+    {
+        "català": "poder",
+        "anglès": "to be able to",
+        "conjugacions": {
+            "jo": "puc",
+            "tu": "pots",
+            "ell/ella": "pot",
+            "nosaltres": "podem",
+            "vosaltres": "podeu",
+            "ells/elles": "poden"
+        }
+    },
+    {
+        "català": "treure",
+        "anglès": "to take out",
+        "conjugacions": {
+            "jo": "trec",
+            "tu": "treus",
+            "ell/ella": "treu",
+            "nosaltres": "traiem",
+            "vosaltres": "traieu",
+            "ells/elles": "treuen"
+        }
+    },
+    {
+        "català": "perdre",
+        "anglès": "to lose",
+        "conjugacions": {
+            "jo": "perdo",
+            "tu": "perds",
+            "ell/ella": "perd",
+            "nosaltres": "perdem",
+            "vosaltres": "perdeu",
+            "ells/elles": "perden"
+        }
+    },
+    {
+        "català": "sortir",
+        "anglès": "to leave",
+        "conjugacions": {
+            "jo": "surto",
+            "tu": "surts",
+            "ell/ella": "surt",
+            "nosaltres": "sortim",
+            "vosaltres": "sortiu",
+            "ells/elles": "surten"
+        }
+    },
+    {
+        "català": "fer",
+        "anglès": "to do, to make",
+        "conjugacions": {
+            "jo": "faig",
+            "tu": "fas",
+            "ell/ella": "fa",
+            "nosaltres": "fem",
+            "vosaltres": "feu",
+            "ells/elles": "fan"
+        }
+    },
+    {
+        "català": "moure",
+        "anglès": "to move",
+        "conjugacions": {
+            "jo": "moc",
+            "tu": "mous",
+            "ell/ella": "mou",
+            "nosaltres": "movem",
+            "vosaltres": "moveu",
+            "ells/elles": "mouen"
+        }
+    },
+    {
+        "català": "escriure",
+        "anglès": "to write",
+        "conjugacions": {
+            "jo": "escric",
+            "tu": "escrius",
+            "ell/ella": "escriu",
+            "nosaltres": "escrivim",
+            "vosaltres": "escriviu",
+            "ells/elles": "escriuen"
+        }
+    },
+    {
+        "català": "guarnir",
+        "anglès": "to decorate",
+        "conjugacions": {
+            "jo": "guerneixo",
+            "tu": "guerneixes",
+            "ell/ella": "guerneix",
+            "nosaltres": "guarnim",
+            "vosaltres": "guarniu",
+            "ells/elles": "guerneixen"
+        }
+    },
+    {
+        "català": "dormir",
+        "anglès": "to sleep",
+        "conjugacions": {
+            "jo": "dormo",
+            "tu": "dorms",
+            "ell/ella": "dorm",
+            "nosaltres": "dormim",
+            "vosaltres": "dormiu",
+            "ells/elles": "dormen"
+        }
+    },
+    {
+        "català": "esmorzar",
+        "anglès": "to have breakfast",
+        "conjugacions": {
+            "jo": "esmorzo",
+            "tu": "esmorzes",
+            "ell/ella": "esmorza",
+            "nosaltres": "esmorzem",
+            "vosaltres": "esmorzeu",
+            "ells/elles": "esmorzen"
+        }
+    },
+    {
+        "català": "riure",
+        "anglès": "to laugh",
+        "conjugacions": {
+            "jo": "ric",
+            "tu": "rius",
+            "ell/ella": "riu",
+            "nosaltres": "riem",
+            "vosaltres": "rieu",
+            "ells/elles": "riuen"
+        }
+    },
+    {
+        "català": "avorrir",
+        "anglès": "to bore",
+        "conjugacions": {
+            "jo": "avorreixo",
+            "tu": "avorreixes",
+            "ell/ella": "avorreix",
+            "nosaltres": "avorrim",
+            "vosaltres": "avorriu",
+            "ells/elles": "avorreixen"
+        }
+    },
+    {
+        "català": "entendre",
+        "anglès": "to understand",
+        "conjugacions": {
+            "jo": "entenc",
+            "tu": "entens",
+            "ell/ella": "entén",
+            "nosaltres": "entenem",
+            "vosaltres": "enteneu",
+            "ells/elles": "entenen"
+        }
+    },
+    {
+        "català": "pentinar",
+        "anglès": "to comb",
+        "conjugacions": {
+            "jo": "pentino",
+            "tu": "pentines",
+            "ell/ella": "pentina",
+            "nosaltres": "pentinem",
+            "vosaltres": "pentineu",
+            "ells/elles": "pentinaen"
+        }
+    },
+    {
+        "català": "viure",
+        "anglès": "to live",
+        "conjugacions": {
+            "jo": "visc",
+            "tu": "vius",
+            "ell/ella": "viu",
+            "nosaltres": "vivim",
+            "vosaltres": "viviu",
+            "ells/elles": "viuen"
+        }
+    },
+    {
+        "català": "caure",
+        "anglès": "to fall",
+        "conjugacions": {
+            "jo": "caic",
+            "tu": "caus",
+            "ell/ella": "cau",
+            "nosaltres": "caem",
+            "vosaltres": "caeu",
+            "ells/elles": "cauen"
+        }
+    },
+    {
+        "català": "conèixer",
+        "anglès": "to know, to meet",
+        "conjugacions": {
+            "jo": "conec",
+            "tu": "coneixes",
+            "ell/ella": "coneix",
+            "nosaltres": "coneixem",
+            "vosaltres": "coneixeu",
+            "ells/elles": "coneixen"
+        }
+    },
+    {
+        "català": "aprendre",
+        "anglès": "to learn",
+        "conjugacions": {
+            "jo": "aprenc",
+            "tu": "aprens",
+            "ell/ella": "aprén",
+            "nosaltres": "aprenem",
+            "vosaltres": "apreneu",
+            "ells/elles": "aprenen"
+        }
     }
 ]
